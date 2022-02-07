@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, request
+from flask import Flask, render_template, request
 def teen_value(num):
     if num >12 and num< 20 and num!=15 and num!=16:
         return 0
